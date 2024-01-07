@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=IBM+Plex+Sans:wght@700&family=Plus+Jakarta+Sans:wght@600&display=swap');
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+  }
+  
+  h2, h3, h4, h5 {
+    color: #1f2647e6;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+  }
+  
+  html {font-size: 100%;} /* 16px */
+  
+  h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+    line-height: 1.1;
+}
+  
+  h2 {
+    font-size: 49px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.03rem;
+    line-height: 1.1;
+}
+  
+  h3 {font-size: 2.369rem; /* 37.92px */}
+  
+  h4 {font-size: 1.777rem; /* 28.48px */}
+  
+  h5 {font-size: 1.333rem; /* 21.28px */}
+  
+  small {font-size: 0.750rem; /* 12px */}
+
+  p {font-size: 1.2rem;}
+
+  .grid-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    left: 70px;
+    right: 70px;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.5) 65px, transparent 65px);
+    background-size: 85px 85px; /* 65px column + 20px gutter */
+    pointer-events: none; /* Allows clicking through the grid */
+    z-index: 10000; /* Ensures the grid is above everything else */
+}
+
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url(../images/hero.jpeg) no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(16, 19, 35, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    color: white;
+    max-width: 700px;
+}
+
+.hero-content p {
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.hero-content button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: large;
+}
+
+/* CSS for floating navbar */
+.navbar {
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is above other content */
+    margin-top: 110px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#nav-link-services-top {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#nav-link-services-light {
+    color: #1f2647e6;
+    border-bottom: 1px solid #707070;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+#nav-link-services-dark {
+    color: white;
+    border-bottom: 1px solid #707070;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+#nav-link-services-light:hover {
+    border-bottom: 1px solid #007bff;
+}
+
+#nav-link-services-dark:hover {
+    border-bottom: 1px solid #007bff;
+    color: #007bff;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.section-heading {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 738px;
+    margin-bottom: 25px;
+}
+
+.section-2 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.section-2-col {
+    padding: 0rem 1.25rem;
+    text-align: center;
+}
+
+.section-2-icon {
+    padding-bottom: 20px;
+}
+
+.section-2-subheading {
+    padding-bottom: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.section-2-1 {
+    align-items: center;
+}
+
+.section-2-2 {
+    margin-block-start: 4rem;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-3 {
+    background-color: #f7f7f8;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.section-3-col {
+    padding: 0rem 1.25rem;
+    vertical-align: bottom;
+}
+
+.section-3-img {
+    width: 146px;
+}
+
+.section-3-1 {
+    align-items: center;
+}
+
+.section-3-2 {
+    margin-block-start: 4rem;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-4 {
+    align-items: center;
+    text-align: left;
+    max-width: 1080px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-4-row {
+    flex-wrap: nowrap;
+}
+
+.section-4-img {
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+    margin-bottom: 12.5px;
+}
+
+.section-4-menu-items {
+    column-count: 2;
+    column-gap: 50px;
+}
+
+.section-4-heading {
+    padding-bottom: 15px;
+}
+
+.section-4-content {
+    padding-bottom: 35px;
+}
+
+.section-4-1 {
+    border-right: 1px solid #e2e8ec;
+    padding-right: 50px;
+}
+
+.section-4-2 {
+    margin-left: 40px;
+}
+
+.section-4-2-heading {
+    color: #707070;
+    letter-spacing: 0.1rem;
+    margin-bottom: 25px;
+}
+
+.section-5 {
+    align-items: center;
+    text-align: left;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #1f2647e6;
+}
+
+.section-5-row {
+    flex-wrap: nowrap;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-5-img {
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+    margin-bottom: 12.5px;
+}
+
+.section-5-menu-items {
+    column-count: 2;
+    column-gap: 50px;
+}
+
+.section-5-heading {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.section-5-content {
+    padding-bottom: 35px;
+    color: white;
+}
+
+.section-5-1 {
+    border-right: 1px solid #e2e8ec;
+    padding-right: 50px;
+}
+
+.section-5-2 {
+    margin-left: 40px;
+}
+
+.section-5-2-heading {
+    color: #707070;
+    letter-spacing: 0.1rem;
+    margin-bottom: 25px;
+}
+
+.section-5-2-content {
+    color: white;
+}
