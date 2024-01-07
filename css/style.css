@@ -124,6 +124,7 @@ body {
     width: 100%;
     padding: 20px 0px;
     font-weight: 600;
+    letter-spacing: 0.05rem;
 }
 
 #nav-link-services-dark {
