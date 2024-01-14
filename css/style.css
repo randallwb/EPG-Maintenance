@@ -358,6 +358,10 @@ p {
   background-color: #f7f7f7;
 }
 
+.section-6-1-heading {
+  margin:25px 0px;
+}
+
 .section-6-row-1 {
   flex-wrap: nowrap;
   max-width: 1080px;
@@ -375,6 +379,7 @@ p {
 
 .section-6-1 {
   text-align: center;
+  padding-bottom: 25px ;
 }
 
 .section-6-2 {
@@ -388,8 +393,240 @@ p {
   -o-border-radius: 5px;
 }
 
+.section-6-2-p {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
 .section-6-3 {
+  align-items: center;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  color: #3f72af;
+}
+
+.section-6-3-img {
+  width: 20px;
+  height: 20px;
+}
+
+.section-7 {
+  color: white;
+  background-color: #1f2647e6;
+  align-items: center;
+  text-align: left;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-7-1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.section-7-1-title {
+  color: white;
+}
+
+.section-7-1-heading {
+  padding: 25px 0px;
+  color: white;
+}
+
+.section-7-2 {
+  flex-wrap: nowrap;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  gap: 80px;
+}
+
+.section-7-2-1-img {
+  width: 80px;
+  padding-bottom: 25px;
+}
+
+.section-8 {
+  background-color: #f7f7f7;
+  align-items: center;
+  text-align: left;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-8-1-heading {
+  padding: 25px 0px;
+}
+
+.section-8-1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.section-8-2 {
+  display: flex; /* Added */
+  flex-wrap: wrap; /* Changed from nowrap to wrap */
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  gap: 25px;
+  align-items: stretch; /* Added */
+}
+
+.section-8-2-box {
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  justify-content: space-between; /* Modified */
+  text-align: left;
+  background-color: white;
+  padding: 25px 25px 0px 25px;
+  border-radius: 10px;
+  /* ... other styles ... */
+}
+
+.section-8-2-box-p {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column; /* Added */
+  justify-content: center; /* Added */
+}
+
+.section-8-2-img {
+  height: 55px;
+  width: 55px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin-right: 25px;
+}
+
+.section-8-2-profile {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section-8-2-name {
+  font-weight: 600;
+  margin: 0px;
+}
+
+.section-9 {
+  text-align: center;
+
+}
+
+.section-9-p {
+  padding: 25px 0px;
+}
+
+.contact-section {
+  position: relative;
+  height: 100vh;
+  background: url(../images/contact.jpg) no-repeat center center/cover;
+  max-height: 640px;
+}
+
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1f2647e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-content {
+  color: white;
+  max-width: 720px;
+}
+
+.contact-h2 {
+  color: white;
+}
+
+.contact-content button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+  background-color: #1f2647e6;
+
+  }
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: baseline;
+}
+
+.footer-content {
+flex: 1;
+display: flex;
+flex-direction: column;
+text-align: left;
+color: white;
+justify-content: space-between;
+}
+
+.footer-h2 {
+  color: #bdbdbd;
+  padding-bottom: 10px;
+}
+
+.footer-socials {
+  margin-top: 120px;
+}
+
+.footer-socials img {
+margin: 0px 10px;
+width: 30px;
+}
+
+.footer-list {
+  list-style-type: none;
+  text-align: left;
+  padding: 25px;
+  color: white;
+}
+
+.footer-list li {
+  border-top: 1px solid #bdbdbd;
+  padding: 20px 0px;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
 }
