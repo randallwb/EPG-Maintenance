@@ -4,321 +4,220 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perficient Building Services Ltd</title>
-    <!-- Bootstrap CSS Link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!-- Custom CSS Link -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- Google Fonts -->
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Cabin"
     />
   </head>
   <body>
-    <!-- <div class="grid-overlay"></div>     -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <div class="container">
-        <div class="row w-100">
-          <div class="col-md-4 d-flex">
-            <!-- Logo -->
-            <a class="navbar-brand m-auto" href="#"
-              ><img
-                src="../PFT/images/PFT-Logo.png"
-                alt="EPG Maintenance"
-                height="59"
-                width="370"
-            /></a>
-          </div>
-
-          <div class="col-md-8">
-            <!-- Burger Menu Toggle -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Navbar Items -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
+    <!-- Hero with navbar -->
+    <div class="container-fluid hero">
+      <div class="overlay">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="images/PFT-Logo.png" alt="Logo" />
+            </a>
+            <div class="collapse navbar-collapse justify-content-end">
+              <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#Why-PFT">Why PFT</a>
+                  <a class="nav-link" href="#why">Why PFT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Certifications">Certifications</a>
+                  <a class="nav-link" href="#certifications">Certifications</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Services">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Contact">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
+        </nav>
+        <div class="justify-content-center">
+          <div>
+            <a class="logo"><img src="images/PFT-Logo.png" alt="" /></a>
+          </div>
+          <div class="text-center">
+            <h1>Building Services Management</h1>
+            <p>
+              Building Services Installation, PPM and Reactive Maintenance
+              across London and the South East
+            </p>
+            <button class="btn btn-primary">Contact</button>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="hero-section">
-      <div class="overlay">
-        <div class="hero-content">
-          <h1>Building Services Management</h1>
-          <p>
-            Building Services Installation, PPM and Reactive Maintenance across London and the South East
-          </p>
-          <button class="btn btn-primary active">Contact</button>
-        </div>
-        <!-- <div>
-                <button class="btn btn-primary active" id="gridBtn" onclick="toggleGrid()">Toggle Grid</button>
-            </div> -->
       </div>
     </div>
-
-    <!-- Section 2 -->
-
-  <section id="Why-PFT">
-    <div class="section-2">
-      <div class="section-2-1">
-        <h2 class="section-heading">
-          What makes <em>PFT</em> a great choice?
-        </h2>
+    <!-- Why section -->
+    <div id="why" class="container-fluid why">
+      <div class="text-center">
+        <h1>What makes <em>PFT</em> a great choice?</h1>
         <p>
-          Over 25 years of experience providing an excellent service across multiple industries.
+          Over 25 years of experience providing an excellent service across
+          multiple industries.
         </p>
       </div>
-      <div class="row section-2-2">
-        <div class="col section-2-col">
-          <div>
-            <img
-              class="section-2-icon"
-              src="../EPG-Maintenance/images/icon1.png"
-              alt=""
-            />
-            <h4 class="section-2-subheading">Communication</h4>
-            <p>
-              Communication is at the heart of what we do. Speak to one of our team
-              who can access your needs and dispatch an expert straight to your company.
-            </p>
-          </div>
+      <div class="custom-row justify-content-center">
+        <div class="col-md-4 text-center">
+          <img src="../EPG-Maintenance/images/icon1.png" alt="" />
+          <h4>Communication</h4>
+          <p>
+            Communication is at the heart of what we do. Speak to one of our
+            team who can access your needs and dispatch an expert straight to
+            your company.
+          </p>
         </div>
-        <div class="col section-2-col">
-          <div>
-            <img
-              class="section-2-icon"
-              src="../EPG-Maintenance/images/icon2.png"
-              alt=""
-            />
-            <h4 class="section-2-subheading">Expertise</h4>
-            <p>
-              With over 25 years experience in both public and private sectors,
-              PFT is more than equiped with the knowledge to deliver the service you require.
-            </p>
-          </div>
+        <div class="col-md-4 text-center">
+          <img src="../EPG-Maintenance/images/icon2.png" alt="" />
+          <h4>Expertise</h4>
+          <p>
+            With over 25 years experience in both public and private sectors,
+            PFT is more than equiped with the knowledge to deliver the service
+            you require.
+          </p>
         </div>
-        <div class="col section-2-col">
-          <div>
-            <img
-              class="section-2-icon"
-              src="../EPG-Maintenance/images/icon3.png"
-              alt=""
-            />
-            <h4 class="section-2-subheading">In-house</h4>
-            <p>
-              We offer a range of services from Building Services Installations,
-              PPM and Reactive Maintenance, all through our own certified technicians.
-            </p>
-          </div>
+        <div class="col-md-4 text-center">
+          <img src="../EPG-Maintenance/images/icon3.png" alt="" />
+          <h4>In-house</h4>
+          <p>
+            We offer a range of services from Building Services Installations,
+            PPM and Reactive Maintenance, all through our own certified
+            technicians.
+          </p>
         </div>
       </div>
     </div>
-  </section>
-
-    <!-- section 3 -->
-  <section id="Certifications">
-    <div class="section-3">
-      <div class="section-3-1">
+    <!-- Certifications -->
+    <div id="certifications" class="container-fluid certifications">
+      <div class="text-center">
         <h5>CERTIFICATIONS</h5>
       </div>
-
-      <div class="row section-3-2">
-        <div class="col section-3-col">
+      <div class="custom-row justify-content-center">
+        <div class="col-8 col-sm-6 col-lg-3">
           <img
-            class="section-3-img"
-            src="../EPG-Maintenance/images/APHC-logo.png"
-            alt="APHC-logo"
-          />
-        </div>
-        <div class="col section-3-col">
-          <img
-            class="section-3-img"
             src="../EPG-Maintenance/images/checkatrader.png"
             alt="checkatrader"
           />
         </div>
-        <div class="col section-3-col">
+        <div class="col-8 col-sm-6 col-lg-3">
           <img
-            class="section-3-img"
             src="../EPG-Maintenance/images/gas-safe-register-logo.png"
             alt="gas-safe"
           />
         </div>
-        <div class="col section-3-col">
-          <img
-            class="section-3-img"
-            src="../EPG-Maintenance/images/NIC_EIC.svg"
-            alt="NIC_EIC"
-          />
+        <div class="col-8 col-sm-6 col-lg-3">
+          <img src="../EPG-Maintenance/images/NIC_EIC.svg" alt="NIC_EIC" />
         </div>
-        <div class="col section-3-col">
+        <div class="col-8 col-sm-6 col-lg-3">
           <img
-            class="section-3-img"
             src="../EPG-Maintenance/images/trustrader.png"
             alt="trustrader"
           />
         </div>
       </div>
     </div>
-  </section>
-
-    <!-- Section 4 -->
-    <section id="Services" class="section-4">
-      <div class="section-4">
-        <div class="row section-4-row">
-          <div class="col-12 col-md-6 col-lg-8 section-4-1">
-            <div class="section-4-heading">
-              <h2>Services</h2>
-            </div>
-            <div class="section-4-content">
-              <p>
-                At PFT, we are dedicated to providing a comprehensive range of top-tier services
-                to meet all your building and facility needs. Our expert team is equipped to handle
-                projects of any scale, ensuring quality, efficiency, and reliability in every task we undertake.
-              </p>
-            </div>
-            <div class="section-4-menu-items">
-              <ul id="nav-link-services-top">
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    Electrical Installations</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    Electrical Maintenance</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    HVAC</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    Building refurbishments</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    Safety Inspections</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    Plumbing</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" id="nav-link-services-light">
-                    Plant rooms</a
-                  >
-                </li>
-              </ul>
-            </div>
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container-fluid">
+        <div class="col-12 col-sm-8 info">
+          <div class="text-center">
+            <h1>Services</h1>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 section-4-2">
-            <img
-              class="section-4-img"
-              src="../EPG-Maintenance/images/mika-baumeister-dp9AxaKHdVg-unsplash.jpg"
-              alt="services-eletrical"
-            />
-            <small class="section-4-2-heading">ONLY THE BEST</small>
-            <h5 href="#">
-              Meet our carefully selected team of highly trained and experienced
-              technicians
-            </h5>
+          <div>
+            <p>
+              PFT are dedicated to providing a comprehensive range of top-tier
+              services to meet all your building and facility needs. Our expert
+              team is equipped to handle projects of any scale, ensuring
+              quality, efficiency, and reliability in every task we undertake.
+            </p>
+          </div>
+          <div class="list">
+            <ul>
+              <li>
+                <a> Electrical Installations</a>
+              </li>
+              <li>
+                <a> Electrical Maintenance</a>
+              </li>
+              <li>
+                <a> HVAC</a>
+              </li>
+              <li>
+                <a> Building refurbishments</a>
+              </li>
+              <li>
+                <a> Safety Inspections</a>
+              </li>
+              <li>
+                <a> Plumbing</a>
+              </li>
+              <li>
+                <a> Plant rooms</a>
+              </li>
+            </ul>
           </div>
         </div>
+        <div class="services-side-bar col-12 col-sm-3">
+          <img
+            src="../EPG-Maintenance/images/mika-baumeister-dp9AxaKHdVg-unsplash.jpg"
+            alt="services-eletrical"
+          />
+          <small>ONLY THE BEST</small>
+          <h5 href="#">
+            Meet our carefully selected team of highly trained and experienced
+            technicians
+          </h5>
+        </div>
       </div>
-    </section>
-
-
-    <!--Section-9-->
-
-    <section id="Contact" class="section-9">
-      <div class="contact-section">
-        <div class="contact-overlay">
-          <div class="contact-content">
-          <h2 class="contact-h2">Contact us today</h2>
-          <p class="section-9-p">Contact us today to discuss your needs and discover how we can
-            support your requirements. Our team is eager to work with you, providing tailored
-            solutions and exceptional service. Click the button below to get started.
+    </div>
+    <!-- Contact -->
+    <div id="contact" class="contact">
+      <div class="contact-overlay">
+        <div class="contact-content">
+          <h1>Contact us today</h1>
+          <p>
+            Contact us today to discuss your needs and discover how we can support
+            your requirements. Our team is eager to work with you, providing
+            tailored solutions and exceptional service. Click the button below to
+            get started.
           </p>
-          <button class="btn btn-primary active">Contact</button>
-          </div>
+          <button class="btn btn-primary">Contact</button>
         </div>
       </div>
-    </section>
-
-<!-- footer -->
-
-<footer class="footer">
-  <div class="footer-section row">
-    <div class="footer-content col">
-      <h4 class="footer-h2">Perficient Building Services Ltd</h4>
-      <p>Mechanical and Electrical Solutions.</p>
-      <p>© 2024 Perficient Building Services Ltd. All Rights Reserved.</p>
-      <div class="footer-socials">
-        <img src="../EPG-Maintenance/images/X_logo_2023_(white).png" alt="X Logo">
-        <img src="../EPG-Maintenance/images/Instagram_logo.png" alt="Instagram_logo">
-        <img src="../EPG-Maintenance/images/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
-        <img src="../EPG-Maintenance/images/Facebook_Logo_2023.png" alt="facebook Logo">
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-content">
+          <h4>Perficient Building Services Ltd</h4>
+          <p>Mechanical and Electrical Solutions.</p>
+          <p>© 2024 Perficient Building Services Ltd. All Rights Reserved.</p>
+          <div class="footer-socials">
+          <img src="../EPG-Maintenance/images/X_logo_2023_(white).png" alt="X Logo">
+          <img src="../EPG-Maintenance/images/Instagram_logo.png" alt="Instagram_logo">
+          <img src="../EPG-Maintenance/images/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+          <img src="../EPG-Maintenance/images/Facebook_Logo_2023.png" alt="facebook Logo">
+          </div>
+        </div>
+        <div class="footer-list">
+          <ul>
+            <li><a href="#why">Why PFT</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <ul class="footer-list">
-        <li><a href="#Why-PFT">Why PFT</a></li>
-        <li><a href="#Certifications">Certifications</a></li>
-        <li><a href="#Services">Services</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
-
-    <!-- Grid-->
-    <script>
-      function toggleGrid() {
-        var grid = document.querySelector(".grid-overlay");
-        grid.style.display = grid.style.display === "none" ? "block" : "none";
-      }
-
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-
-    </script>
+    </footer>
   </body>
 </html>
